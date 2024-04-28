@@ -3,7 +3,6 @@ import ReactDOM from 'react-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './index.css';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import reportWebVitals from './reportWebVitals';
 import Home from './routes/Home';
 import Exercicio1 from "./components/Exercicio1";
 
@@ -22,4 +21,3 @@ root.render(
     </React.StrictMode>
 );
 
-reportWebVitals();
