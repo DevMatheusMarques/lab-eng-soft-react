@@ -37,20 +37,6 @@ const Home = () => {
                           style={{left: '10%', top: '130px', position: 'absolute'}}>Exercícios Semana 1</Link><br/><br/><br/>
                     <Link to="/exercicio" className="btn bg-info-subtle"
                           style={{left: '45%', top: '130px', position: 'absolute'}}>Exercícios Semana 2</Link><br/><br/><br/>
-                    <Link to="./semana3/selecao-exercicios.html" className="btn bg-info-subtle"
-                          style={{left: '80%', top: '130px', position: 'absolute'}}>Exercícios Semana 3</Link><br/><br/><br/>
-                    <Link to="./semana4/exercicio9.html" className="btn bg-info-subtle"
-                          style={{left: '10%', top: '250px', position: 'absolute'}}>Exercício Semana
-                        4</Link><br/><br/><br/>
-                    <Link to="./semana5/exercicio10.html" className="btn bg-info-subtle"
-                          style={{left: '45%', top: '250px', position: 'absolute'}}>Exercício Semana
-                        5</Link><br/><br/><br/>
-                    <Link to="./semana6/exercicio11.html" className="btn bg-info-subtle"
-                          style={{left: '80%', top: '250px', position: 'absolute'}}>Exercício Semana
-                        6</Link><br/><br/><br/>
-                    <Link to="./letreiro/letreiro.html" className="btn bg-info-subtle"
-                          style={{left: '10%', top: '380px', position: 'absolute'}}>Letreiro em
-                        React</Link><br/><br/><br/>
                 </div>
             </div>
         </div>
