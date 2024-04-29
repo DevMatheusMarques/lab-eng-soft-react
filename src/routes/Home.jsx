@@ -28,11 +28,11 @@ const Home = () => {
                         que quiser retornar a pagina anterior ⚠️</p>
                 </div>
             </div>
-            <div className="card ms-5 me-5 border border-info-subtle card-style" style={{marginTop: '50px'}}>
+            <div className="card ms-5 me-5 mb-5 border border-info-subtle card-style" style={{marginTop: '50px'}}>
                 <div className="card-header border border-info-subtle bg-info-subtle">
                     <h1>Acesso ao Projeto</h1>
                 </div>
-                <div className="card-body" style={{marginBottom: '-8%'}}>
+                <div className="card-body">
                     <Link to="/selecao-exercicios/semana1" className="btn bg-info-subtle"
                           style={{left: '10%', top: '130px', position: 'absolute'}}>Exercícios Semana 1</Link><br/><br/><br/>
                 </div>
