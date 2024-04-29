@@ -19,7 +19,7 @@ function exercicio1() {
                     </p><br/>
                     <Data className="mt-5"/>
                     <Hora className="mt-5"/>
-                <Link to="/home" className="btn bg-info-subtle ms-5 mt-5">Voltar</Link>
+                <Link to="/selecao-exercicios/semana1" className="btn bg-info-subtle mt-5">Voltar</Link>
                 </div>
             </div>
         </>

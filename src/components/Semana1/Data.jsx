@@ -20,7 +20,7 @@ function Data() {
         var mes = meses[dataAtual.getMonth()];
         var ano = dataAtual.getFullYear();
 
-        var resposta = `<strong>A data atual é:</strong> ${dia}, ${data} de ${mes} de ${ano}`;
+        var resposta = `<strong>${dia}, ${data} de ${mes} de ${ano}</strong>`;
         var dataHoje = document.getElementById("dataHoje");
 
         if (dataHoje) {
@@ -31,7 +31,7 @@ function Data() {
     return (
         <>
         <p className="card-text">
-            Data Atual:
+            <strong>Data:</strong>
         </p>
         <div id="dataHoje" className="card-text mb-5"></div>
         </>

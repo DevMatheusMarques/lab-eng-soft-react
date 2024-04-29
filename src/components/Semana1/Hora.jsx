@@ -2,7 +2,7 @@ function Hora() {
     return (
        <>
         <p className="card-text fw-bold">
-            Relógio:
+            Horário:
         </p>
         <div id="relogio" className="card-text mb-5 fw-bold fs-1"></div>
        </>

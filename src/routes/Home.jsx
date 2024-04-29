@@ -33,9 +33,9 @@ const Home = () => {
                     <h1>Acesso ao Projeto</h1>
                 </div>
                 <div className="card-body" style={{marginBottom: '-8%'}}>
-                    <Link to="/exercicio1" className="btn bg-info-subtle"
+                    <Link to="/selecao-exercicios/semana1" className="btn bg-info-subtle"
                           style={{left: '10%', top: '130px', position: 'absolute'}}>Exercícios Semana 1</Link><br/><br/><br/>
-                    <Link to="/exercicio1/hora" className="btn bg-info-subtle"
+                    <Link to="/exercicio" className="btn bg-info-subtle"
                           style={{left: '45%', top: '130px', position: 'absolute'}}>Exercícios Semana 2</Link><br/><br/><br/>
                     <Link to="./semana3/selecao-exercicios.html" className="btn bg-info-subtle"
                           style={{left: '80%', top: '130px', position: 'absolute'}}>Exercícios Semana 3</Link><br/><br/><br/>
