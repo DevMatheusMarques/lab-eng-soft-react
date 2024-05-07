@@ -35,6 +35,8 @@ const Home = () => {
                 <div className="card-body">
                     <Link to="/selecao-exercicios/semana1" className="btn bg-info-subtle"
                           style={{left: '10%', top: '130px', position: 'absolute'}}>Exercícios Semana 1</Link><br/><br/><br/>
+                    <Link to="/semana2/exercicio3" className="btn bg-info-subtle"
+                          style={{left: '45%', top: '130px', position: 'absolute'}}>Exercícios Semana 2</Link><br/><br/><br/>
                 </div>
             </div>
         </div>
