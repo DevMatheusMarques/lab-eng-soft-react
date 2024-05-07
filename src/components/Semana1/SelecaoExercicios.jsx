@@ -1,7 +1,9 @@
 import {Link} from 'react-router-dom';
+import Navbar from "../Navbar";
 function SelecaoExercicios() {
     return (
         <>
+            <Navbar/>
             <div className="card ms-5 me-5 mt-5 border border-info-subtle">
                 <div className="card-header border border-info-subtle bg-info-subtle">
                     Semana 1

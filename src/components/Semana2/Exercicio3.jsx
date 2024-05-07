@@ -1,10 +1,12 @@
 import {Link} from 'react-router-dom';
 import React from 'react';
 import Contador from "./Contador";
+import Navbar from "../Navbar";
 
 function Exercicio3() {
     return (
         <>
+            <Navbar/>
             <div className="card ms-5 me-5 mt-3 mb-3 border border-info-subtle">
                 <div className="card-header border border-info-subtle bg-info-subtle">
                     Semana 2

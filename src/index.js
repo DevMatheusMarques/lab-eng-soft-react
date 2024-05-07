@@ -12,7 +12,7 @@ import Exercicio3 from "./components/Semana2/Exercicio3";
 const router = (
     <Routes>
         <Route path="/home" element={<Home />} />
-        <Route path="/selecao-exercicios/semana1" element={<SelecaoExercicios/>} />
+        <Route path="/semana1/selecao-exercicios" element={<SelecaoExercicios/>} />
         <Route path="/exercicio1" element={<Exercicio1/>} />
         <Route path="/exercicio2" element={<Exercicio2/>} />
         <Route path="/semana2/exercicio3" element={<Exercicio3/>} />
