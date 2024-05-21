@@ -20,6 +20,9 @@ function Navbar() {
                         <li className="nav-item">
                             <Link to="/semana2/exercicio3" className="nav-link">Semana 2</Link>
                         </li>
+                        <li className="nav-item">
+                            <Link to="/semana3/exercicio4" className="nav-link">Semana 3</Link>
+                        </li>
                     </ul>
                 </div>
             </div>
