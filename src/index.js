@@ -22,6 +22,10 @@ import MovingDot from './components/Semana4/MovingDot';
 import ShapeEditor from './components/Semana4/ShapeEditor';
 import Toolbar from './components/Semana4/Toolbar';
 import SelecaoExercicios from "./components/Semana1/SelecaoExercicios";
+import Accordion from "./components/Semana5/Accordion";
+import Messenger from "./components/Semana5/Messenger";
+import Form1Semana5 from './components/Semana5/Form1';
+import Form2Semana5 from './components/Semana5/Form2';
 
 const router = (
     <Routes>
@@ -45,6 +49,10 @@ const router = (
         <Route path="/semana4/movingdot" element={<MovingDot />} />
         <Route path="/semana4/shapeeditor" element={<ShapeEditor />} />
         <Route path="/semana4/toolbar" element={<Toolbar />} />
+        <Route path="/semana5/form1" element={<Form1Semana5 />} />
+        <Route path="/semana5/form2" element={<Form2Semana5 />} />
+        <Route path="/semana5/accordion" element={<Accordion />} />
+        <Route path="/semana5/messenger" element={<Messenger />} />
     </Routes>
 );
 

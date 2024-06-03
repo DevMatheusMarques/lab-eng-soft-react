@@ -25,7 +25,7 @@ function Navbar() {
                         </li>
                         <li className="nav-item dropdown">
                             <Link className="nav-link dropdown-toggle" to="#" role="button" data-bs-toggle="dropdown"
-                               aria-expanded="false">
+                                  aria-expanded="false">
                                 Semana 4
                             </Link>
                             <ul className="dropdown-menu border border-info-subtle bg-info-subtle">
@@ -33,7 +33,8 @@ function Navbar() {
                                 <hr className="dropdown-divider"/>
                                 <li><Link className="dropdown-item" to="/semana4/counter">Contador</Link></li>
                                 <hr className="dropdown-divider"/>
-                                <li><Link className="dropdown-item" to="/semana4/counterlist">Lista de Contadores</Link></li>
+                                <li><Link className="dropdown-item" to="/semana4/counterlist">Lista de Contadores</Link>
+                                </li>
                                 <hr className="dropdown-divider"/>
                                 <li><Link className="dropdown-item" to="/semana4/form">Formulário</Link></li>
                                 <hr className="dropdown-divider"/>
@@ -51,11 +52,30 @@ function Navbar() {
                                 <hr className="dropdown-divider"/>
                                 <li><Link className="dropdown-item" to="/semana4/list4">Lista 4</Link></li>
                                 <hr className="dropdown-divider"/>
-                                <li><Link className="dropdown-item" to="/semana4/movingdot">Ponto em Movimento</Link></li>
+                                <li><Link className="dropdown-item" to="/semana4/movingdot">Ponto em Movimento</Link>
+                                </li>
                                 <hr className="dropdown-divider"/>
-                                <li><Link className="dropdown-item" to="/semana4/shapeeditor">Editor de Formas</Link></li>
+                                <li><Link className="dropdown-item" to="/semana4/shapeeditor">Editor de Formas</Link>
+                                </li>
                                 <hr className="dropdown-divider"/>
-                                <li><Link className="dropdown-item" to="/semana4/toolbar">Barra de Ferramentas</Link></li>
+                                <li><Link className="dropdown-item" to="/semana4/toolbar">Barra de Ferramentas</Link>
+                                </li>
+                            </ul>
+                        </li>
+                        <li className="nav-item dropdown">
+                            <Link className="nav-link dropdown-toggle" to="#" role="button" data-bs-toggle="dropdown"
+                                  aria-expanded="false">
+                                Semana 5
+                            </Link>
+                            <ul className="dropdown-menu border border-info-subtle bg-info-subtle">
+                                <li><Link className="dropdown-item" to="/semana5/form1">City Quiz</Link></li>
+                                <hr className="dropdown-divider"/>
+                                <li><Link className="dropdown-item" to="/semana5/form2">Check-in</Link></li>
+                                <hr className="dropdown-divider"/>
+                                <li><Link className="dropdown-item" to="/semana5/accordion">Accordion</Link>
+                                </li>
+                                <hr className="dropdown-divider"/>
+                                <li><Link className="dropdown-item" to="/semana5/messenger">Messenger</Link></li>
                             </ul>
                         </li>
                     </ul>
