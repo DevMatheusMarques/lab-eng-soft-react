@@ -9,7 +9,7 @@ export default function Chat({ contact }) {
         value={message}
         onChange={e => setMessage(e.target.value)}
       />
-      <button onClick={() => sendMessage(contact.email, message)}>
+      <button onClick={() => sendMessage(contact.email, message)} className={"ms-2 "}>
         Send to {contact.name}
       </button>
     </div>
